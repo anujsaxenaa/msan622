@@ -27,7 +27,7 @@ eu <- transform(data.frame(EuStockMarkets), time = time(EuStockMarkets))
    theme(panel.background = element_rect(fill='oldlace',color="white"))
  )
 
-ggsave("hw1-scatter.png", dpi = 300, width = 12, height = 10)
+ggsave("hw1-scatter.png", dpi = 300, width = 10, height = 8)
 
 #2
 
@@ -38,7 +38,7 @@ ggsave("hw1-scatter.png", dpi = 300, width = 12, height = 10)
    theme(panel.background = element_rect(fill='snow2',color="white"))
 )
 
-ggsave("hw1-bar.png", dpi = 300, width = 12, height = 10)
+ggsave("hw1-bar.png", dpi = 300, width = 10, height = 8)
 
 #3
 
@@ -51,7 +51,7 @@ ggsave("hw1-bar.png", dpi = 300, width = 12, height = 10)
    theme(legend.position="none")
 )
 
-ggsave("hw1-multiples.png", dpi = 300, width = 12, height = 10)
+ggsave("hw1-multiples.png", dpi = 300, width = 10, height = 8)
 
 #4
 
@@ -66,4 +66,4 @@ ggsave("hw1-multiples.png", dpi = 300, width = 12, height = 10)
   ggtitle("Daily Closing Prices (1991-1998)")
 )
 
-ggsave("hw1-multiples2.png", dpi = 300, width = 12, height = 10)
+ggsave("hw1-multiples2.png", dpi = 300, width = 10, height = 8)
