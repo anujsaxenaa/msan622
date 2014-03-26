@@ -27,7 +27,7 @@ eu <- transform(data.frame(EuStockMarkets), time = time(EuStockMarkets))
    theme(panel.background = element_rect(fill='oldlace',color="white"))
  )
 
-ggsave("hw1-scatter.png", dpi = 300, width = 10, height = 8)
+ggsave("hw1-scatter.png", dpi = 300, width = 10, height = 7)
 
 #2
 
