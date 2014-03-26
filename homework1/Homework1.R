@@ -35,7 +35,7 @@ ggsave("hw1-scatter.png", dpi = 300, width = 10, height = 8)
   geom_bar()+ggtitle("Movie Votes by Genre")+
    xlab("Movie Genres")+
    ylab("Votes")+
-   theme(panel.background = element_rect(fill='snow2',color="white"))
+   theme(legend.position="none",panel.background = element_rect(fill='snow2',color="white"))
 )
 
 ggsave("hw1-bar.png", dpi = 300, width = 10, height = 8)
