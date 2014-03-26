@@ -66,4 +66,4 @@ ggsave("hw1-multiples.png", dpi = 300, width = 10, height = 8)
   ggtitle("Daily Closing Prices (1991-1998)")
 )
 
-ggsave("hw1-multiples2.png", dpi = 300, width = 10, height = 8)
+ggsave("hw1-multiline.png", dpi = 300, width = 10, height = 8)
