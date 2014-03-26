@@ -2,7 +2,7 @@ Homework 1: Basic Charts
 ==============================
 
 For this assignment, you will practice using `R` and `ggplot2` to generate several basic charts, including a scatterplot, bar chart, small multiples plot, and multi-line plot.
-
+										
 :warning: Your charts may be displayed and discussed in class. Please make sure to **not** include your name on the charts themselves to protect your identity.
 
 Setup
@@ -18,7 +18,7 @@ data(movies)
 data(EuStockMarkets)
 ```
 
-Then, perform the following transformations:
+Then, perform the following transformations: 
 
 - Filter out any rows that have a `budget` value less than or equal to 0 in the `movies` dataset. 
 
@@ -78,4 +78,3 @@ Place all of your `R` code in a single file, and include it and all generated im
 After all of the necessary files are pushed to your repository, submit a link to your `homework1` directory on Canvas.
 
 :warning: Please note that late submissions are not accepted. GitHub shows when you modified a file, so be sure not to modify your code after the deadline!
-
