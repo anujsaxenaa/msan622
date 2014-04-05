@@ -24,8 +24,8 @@ eu <- transform(data.frame(EuStockMarkets), time = time(EuStockMarkets))
    geom_point(color="orange4")+xlab("Movie Budget ($)")+
    ylab("IMDB Movie Rating")+
    ggtitle("Relationship between Movie Budget & Rating")+
-   theme(panel.background = element_rect(fill='oldlace',color="white"))
- )
+   theme(panel.background = element_rect(fill='oldlace',color="white")
+))
 
 ggsave("hw1-scatter.png", dpi = 300, width = 10, height = 8)
 

@@ -1,9 +1,9 @@
 Homework 2: Interactivity
 ==============================
 
-| **Name**  | [YOUR NAME]  |
+| **Name**  | Anuj Saxena  |
 |----------:|:-------------|
-| **Email** | [USERNAME]@dons.usfca.edu |
+| **Email** | asaxena2@dons.usfca.edu |
 
 ## Instructions ##
 
@@ -23,4 +23,11 @@ This will start the `shiny` app. See below for details on how to interact with t
 
 ## Discussion ##
 
-[DISCUSSION: Include a discussion here if required by the assignment.]
+##Aggregated Point Chart##
+I was interested in know if the length of the Movie has a relationship with the IMDB rating. I aggregated the data on the length of the movie and plotted a scatter plot to see the relationship. I found there to be a positive correlation between the Ratings and Movie length. 
+
+##Yearly Average Ratings##
+I created a Yearly sorted table of the Year of release and the Average ratings in that year. I aggressed the table by yearly basis.
+
+##Ratings by Genre##
+I was interested in looking at average IMDB ratings by specific Genre. The table gives me information in a short concise manner.
