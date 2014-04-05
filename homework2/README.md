@@ -32,5 +32,5 @@ I was interested in know if the length of the Movie has a relationship with the 
 I was interested in looking at average IMDB ratings by specific Genre. The table gives me information in a short concise manner.
 
 ##Yearly Average Ratings##
-![IMAGE](YearTable.png)
-I created a Yearly sorted table of the Year of release and the Average ratings in that year. I aggressed the table by yearly basis.
+![IMAGE](DecadelyTable.png)
+I created a Yearly sorted table of the Decade of release.

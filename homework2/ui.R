@@ -23,7 +23,7 @@ shinyUI(
         mainPanel(tabsetPanel(tabPanel("Scatter Plot",plotOutput("scatterplot",width=600,height=500)),
                               tabPanel("Aggregated Point Chart",plotOutput("line",width=600,height=500)),
                               tabPanel("Ratings by Genre", tableOutput("table2")),
-                              tabPanel("Yearly Average Ratings", tableOutput("table1"))
+                              tabPanel("Decadely Average Stats", tableOutput("table1"))
         )
   )  
 )

@@ -1,3 +1,5 @@
+setwd("/MSAN/MSANSpring/MSAN622/DataViz/HW2")
+
 library(ggplot2)
 library(shiny)
 library(scales)
@@ -24,7 +26,13 @@ loadData <- function() {
   genre[which(count == 1 & movies$Short == 1)] = "Short"
   movies$budget <- movies$budget/1000000
   movies$genre <- as.factor(genre)
-  
+  movies$decade[movies$year <=1949] <- "1940s"
+  movies$decade[movies$year>=1950 & movies$year <=1959] <- "1950s"
+  movies$decade[movies$year>=1960 & movies$year <=1969] <- "1960s"
+  movies$decade[movies$year>=1970 & movies$year <=1979] <- "1970s"
+  movies$decade[movies$year>=1980 & movies$year <=1989] <- "1980s"
+  movies$decade[movies$year>=1990 & movies$year <=1999] <- "1990s"
+  movies$decade[movies$year>=2000] <- "2000-2005"
   return(movies)
 }
 globalData <- loadData()
@@ -111,8 +119,9 @@ getPlot <- function(localFrame,dotSize,dotAlpha,colorScheme,Genre,Rating) {
 }
 
 agg_by_year <- function() {
-  ay <- data.frame(aggregate(globalData$rating,by=list(globalData$year),FUN=mean))
-  colnames(ay) <- c("Year of Release", "Average Rating")
+  ay <- data.frame(aggregate(globalData[,c(3,4,5,6)],by=list(globalData$decade),FUN=mean))
+  colnames(ay) <- c("Decade of Release","Avg Movie Length (mins)", "Avg Budget (in Millions)",
+                    "Average Rating", "Average Votes")
   return(ay)
 } 
 
