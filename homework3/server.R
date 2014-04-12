@@ -270,9 +270,3 @@ shinyServer(function(input, output) {
 }
 )
 
-
-<<<<<<< HEAD
-  
-=======
-  
->>>>>>> b99b94a42c9771bc658d9e1113170c4c880c285a
