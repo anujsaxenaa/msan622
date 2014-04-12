@@ -6,6 +6,7 @@ Homework 3: Multivariate
 | **Email** | asaxena2@dons.usfca.edu |
 
 ## Instructions ##
+Please install the following packages
 ```
 library(ggplot2)
 library(shiny)
