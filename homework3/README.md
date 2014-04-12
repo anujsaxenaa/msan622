@@ -1,14 +1,20 @@
 Homework [#]: [HOMEWORK NAME]
 ==============================
 
-| **Name**  | [YOUR NAME]  |
+| **Name**  | Anuj Saxena  |
 |----------:|:-------------|
-| **Email** | [USERNAME]@dons.usfca.edu |
+| **Email** | asaxena2@dons.usfca.edu |
 
 ## Instructions ##
-
-[INSTRUCTIONS: Include instructions on how to run your code.]
-
+```
+library(ggplot2)
+library(shiny)
+library(scales)
+library(maps)
+library(Hmisc)
+library(stringi)
+library(plyr)
+library(GGally)
+```
 ## Discussion ##
 
-[DISCUSSION: Include a discussion here if required by the assignment.]
