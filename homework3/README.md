@@ -18,3 +18,11 @@ library(GGally)
 ```
 ## Discussion ##
 
+![IMAGE](bubblePlot.png)
+
+![IMAGE](smallMultiples.png)
+
+![IMAGE](parallelCoordinates.png)
+
+![IMAGE](geospatial.png)
+
