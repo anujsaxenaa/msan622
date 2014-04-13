@@ -7,4 +7,4 @@ MSAN 622 Data Visualization
 
 ## About Me ##
 
-Data Scientist in training. Harnessing data and finding patterns and relationships in the data is my passion.
+Data Scientist in training. Passionate about harnessing data and finding patterns and relationships.
