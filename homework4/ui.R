@@ -1,4 +1,4 @@
-setwd("/MSAN/MSANSpring/MSAN622/DataViz/testing")
+#setwd("/MSAN/MSANSpring/MSAN622/DataViz/testing")
 library(shiny)
 
 shinyUI(
