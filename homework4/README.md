@@ -1,14 +1,29 @@
-Homework [#]: [HOMEWORK NAME]
+Homework 4: Text Visualization
 ==============================
 
-| **Name**  | [YOUR NAME]  |
+| **Name**  | Anuj Saxena  |
 |----------:|:-------------|
-| **Email** | [USERNAME]@dons.usfca.edu |
+| **Email** | asaxena2@dons.usfca.edu |
 
 ## Instructions ##
 
-[INSTRUCTIONS: Include instructions on how to run your code.]
-
+Please install the following packages:
+```
+library(ggplot2)
+library(wordcloud)
+library(shiny)
+require(tm)        
+require(SnowballC)
+library(grDevices)
+```
+Run the following:
+```
+shiny::runGitHub('msan622', 'anujsaxenaa', subdir='homework4')
+```
 ## Discussion ##
-
-[DISCUSSION: Include a discussion here if required by the assignment.]
+![IMAGE](barplot.png)
+To check for the most occuring words in each book. The word-slider lets you browse through up to 60 words.
+![IMAGE](wordcloud.png)
+In the wordcloud, the size of the word represents the frequency. The color helps us segment this more visibly.
+![IMAGE](comparisoncloud.png)
+Comparision cloud lets us compare the frequency of occurrences across all the Harry Potter books. 
