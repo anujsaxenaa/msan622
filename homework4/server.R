@@ -128,7 +128,7 @@ barplt <- function(which_book,num_words,layout_selection) {
   cc <- comparison.cloud(book_matrix,
                          scale=c(3,0.7),
                          max.words=300,
-                         title.size=0.7)
+                         title.size=1)
   } else {
   p <- ggplot(bar_df, aes(x = word, y = freq)) +
      geom_bar(stat = "identity", fill = "grey60") +
