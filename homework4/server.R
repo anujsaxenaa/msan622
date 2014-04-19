@@ -148,8 +148,9 @@ barplt <- function(which_book,num_words,layout_selection) {
       #max.words=200,
       max.words=num_words*5,
       random.order=FALSE,
+      colors = gray(seq(0.75,0.1,by=-0.01))
       #colors="black"
-      colors = brewer.pal(8, "Dark2")
+      #colors = brewer.pal(8, "Dark2")
       )
   }
 
