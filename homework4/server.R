@@ -95,7 +95,7 @@ barplt <- function(which_book,num_words,layout_selection) {
       'yours', 'so', 'the', 'having', 'once','back','around','looked','got','hed','like','didnt','ing','hadnt',
       'weve','theyre','theres','youre','wasnt','couldnt','ive','youve','yet','cant','say','want','went','hes',
       'dont','many','whats','done','havent','ill','well','wouldnt','came','chapter','harrys','youd','one','two',
-      'going','upon','come','much','way','even','knew',''))
+      'going','upon','come','much','way','even','knew','unbridges','yeah'))
   
   book_tdm <- TermDocumentMatrix(book_corpus)
   
