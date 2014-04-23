@@ -18,7 +18,7 @@ I'm planning to implement most of the following packages for my final project vi
 
 
 The following is the rough layout of my visualization
-![IMAGE](map.png)
+![IMAGE](map.jpeg)
 
 Slider Panel for the years:
 My main goal is to try to show how the meteorite landings happened over time. This is why I'll
