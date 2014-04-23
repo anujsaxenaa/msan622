@@ -9,7 +9,8 @@ Project: Sketch
 
 I was interested in doing some geospatial mapping for the final project. My dataset for the project is
 about the meteorite landings over history. 
-I'm planning to implement most of the following packages for my final project visualization
+I'm planning to implement most of the following packages for my final project visualization.
+
 -`shiny`
 
 -`scales`
