@@ -10,11 +10,11 @@ Project: Sketch
 I was interested in doing some geospatial mapping for the final project. My dataset for the project is
 about the meteorite landings over history. 
 I'm planning to implement most of the following packages for my final project visualization
-```shiny```
-```scales```
-```ggplot2```
-```rdgal```
-```rCharts```
+-`shiny`
+-`scales`
+-`ggplot2`
+-`rdgal`
+-`rCharts`
 
 
 The following is the rough layout of my visualization
