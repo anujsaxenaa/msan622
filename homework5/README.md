@@ -10,6 +10,7 @@ Homework 5: Time Series Visualization
 Please install the following packages.
 
 - `ggplot2`
+
 -`scales`
 
 ## Discussion ##
