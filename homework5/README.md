@@ -13,6 +13,8 @@ Please install the following packages.
 
 - `scales`
 
+- `gridExtra`
+
 ## Discussion ##
 
 ##Stacked Area Plot##
