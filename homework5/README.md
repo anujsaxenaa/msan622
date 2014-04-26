@@ -30,11 +30,11 @@ to a 'driver injured' statistic.
 
 ##Heat Map##
 ![IMAGE](heat_maps.png)
-I was interested in visually finding the trends for the death of front and rear seat drivers. I used `geom_rect()` to
+I was interested in visually finding the trends for the death of front and rear seat passengers. I used `geom_rect()` to
 create a heatmap for finding this out. From the plot, we surely see a pattern for the front seat passenger deaths as they
 have significantly decreased over time. If we look closely, after jan 31st, 1983, right after the seat belt law was passed,
 we see a significant drop in the number of front seat deaths. This also confirms a common notion that seat belts are more
-influential on front seat drivers.
+influential on front seat passengers.
 
 ##Polar Coordinates HeatMap or Circular View Plot##
 ![IMAGE](polar_heatmap.png)
