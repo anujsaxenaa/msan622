@@ -11,7 +11,7 @@ Please install the following packages.
 
 - `ggplot2`
 
--`scales`
+- `scales`
 
 ## Discussion ##
 
