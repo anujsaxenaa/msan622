@@ -36,7 +36,7 @@ Below is the screenshot of my prototype interface:
 
 ![IMAGE](met.png)
 
-##Choose Meteor Type## 
+##Choose Meteor Type##
 This will allow me to filter meteors that were found or fell at the year it was recorded.
 
 ##Pick by Continent##
