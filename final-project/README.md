@@ -29,7 +29,7 @@ shiny::runGitHub('msan622', 'anujsaxenaa', subdir='final-project')
 The dataset that I used for my final project is of Meteorite Landings provided for free online by the Meteoritical Society. Over the past decade, this field has received major international attention. It has even been said that meteorite landings have become more common in recent years and scientist all over the world are eager to learn what mysteries of the universe in presented on their doorstep. Billions of dollars of fundings is being put into action by space research associations of all major countries such as USA, Russia, France etc. With this in mind, this dataset provides us with interesting insights as to how the history of meteorite landings has happened on earth. 
 
 To add to that, this dataset has been acclaimed to be a terrific prototype for a cool data visualization exercise.  
-And being the spatially dominant intelligence person that I am, I was fascinated by the prospects of this dataset. I initially did not have any concrete plan of actions for going about this task, but 
+And being the spatially intelligent dominant person that I am, I was fascinated by the prospects of this dataset. I initially did not have any concrete plan of actions for going about this task, but I was motivated nonetheless. Visualizing.org also hosted a visualization competition on this dataset. For more information, visit the following link :- http://www.visualizing.org/contests/visualizing-meteorites
 
 
 ## 1. History of Meteorite Landings##
