@@ -13,7 +13,7 @@ met3 <- met[-rems,]
 met3$Country[which(met3$Country=="USA")] <- "United States"
 met3$Country[which(met3$Country=="USSR")] <- "Russian Federation"
 #cont <- read.csv("continents.csv")
-d <- merge(met3,cont,by="Country")
+#d <- merge(met3,cont,by="Country")
 world <- map_data("world")
 # localFrame <- met
 # 1600 1959 1977 1979 1980
