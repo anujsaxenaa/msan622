@@ -25,7 +25,7 @@ To view my shiny app, run the following code in R.
 shiny::runGitHub('msan622', 'anujsaxenaa', subdir='final-project')
 ```
 
-Make sure that you are connected to the internet as there the theme functionality is taken from a website.
+Make sure that you are connected to the internet as the theme functionality is taken from a website.
 ##Overview
 The dataset that I used for my final project is of Meteorite Landings provided for free online by the Meteoritical Society. Over the past decade, this field has received major international attention. It has even been said that meteorite landings have become more common in recent years and scientist all over the world are eager to learn what mysteries of the universe in presented on their doorstep. Billions of dollars of fundings is being put into action by space research associations of all major countries such as USA, Russia, France etc. With this in mind, this dataset provides us with interesting insights as to how the history of meteorite landings has happened on earth. 
 
