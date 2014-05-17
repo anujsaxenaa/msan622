@@ -76,7 +76,7 @@ Techniques: In this plot, I show the top 5 meteorites (with names) with regards 
 
 Interactivity: The interactivity uses the ```selectInput``` function that changes the bar graph alongside the country graph.
 
-![IMAGE](countryLevel.png)
+![IMAGE](countryLevelStatistics.png)
 
 ## Changes after the prototype feedback
 
