@@ -59,6 +59,7 @@ I added a ```sliderInput``` which can highlight on the histogram the range of ye
 ![IMAGE](hist.png)
 
 Orthogonal Maps:
+
 Techniques: This plot is very useful if seen alongside the previous histogram as it provides the location parameter. I used the ```coord_map()``` functionality in ```ggplot``` to get a orthogonal map and selected the below four orientations that pretty much the entire globe. From this visual, we can see how filtering by year subsets the points on the map to show only a selected time frame in history. The Antarctica example that I mentioned above can be clearly inferred from this visualization. To have good data density, I scaled the sizes of the points using ```scale_size``` to be between (2,13). I choose ```alpha``` to be 1/6 for maintaining a good data ink ratio. 
 
 Interactivity:
