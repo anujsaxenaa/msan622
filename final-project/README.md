@@ -79,6 +79,7 @@ Interactivity: The interactivity uses the ```selectInput``` function that change
 ## Changes after the prototype feedback
 
 Overview of the original prototype.
+
 The prototype consisted of a time series map(similar to the one above) equipped with the ```animate``` option. There was an option for changing the orientation of the map as we went through time by using a ```selectInput``` to change the orientation of the map. I removed this option and used orthogonal projections instead with ```sliderInput``` having an interval setting. That made more sense to me as the previous way was counterproductive. 
 
 The two main suggestions on the prototype were:
@@ -106,4 +107,4 @@ Feedback I disagree with(or found challenging):
 - I also wanted to find some news related data that was related to meteor crashes (for major meteorites). It would have been interesting to see that heuristic in a visual form.
 
 ## Conclusion
-In conclusion, I really liked working on the final data visualization project. I can now comfortably make any kind of visualization that I want to. This class triggered a lot of my creative side which I throughly enjoyed dwelling into. I now have developed this thinking that data visualization is more than it is and plays a major portion in the broad Data Science pipeline. Moving forward, I plan on creating more visualizations that are not just info graphics, but are strong on the quant aspect, i.e. presenting statistical inferences, models in a visual form. I’m sure this has terrific benefits and I would be happy in indulging in such projects.
+In conclusion, I really liked working on the final data visualization project. I can now comfortably make any kind of visualization that I want to. This class triggered a lot of my creative side which I throughly enjoyed dwelling into. I now have developed this thinking that data visualization is more than it is and plays a major role in the broad Data Science pipeline. Moving forward, I plan on creating more visualizations that are not just info graphics, but are strong on the quant aspect, i.e. presenting statistical inferences, models in a visual form. I’m sure this has terrific benefits and I would be happy in indulging in such projects.
