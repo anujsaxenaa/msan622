@@ -1,4 +1,4 @@
-setwd("/MSAN/MSANSpring/MSAN622/DataViz/HW2")
+# setwd("/MSAN/MSANSpring/MSAN622/DataViz/HW2")
 
 library(ggplot2)
 library(shiny)
